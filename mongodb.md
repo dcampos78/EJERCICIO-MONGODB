@@ -35,6 +35,10 @@ db.Movies.updateOne({title: "The Hobbit: An Unexpected Journey"},{$set: {sinopsi
 db.Movies.updateOne({title: "The Hobbit: The Desolation of Smaug" },{$set: {sinopsis:"The dwarves, along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaim Erebor, their homeland, from Smaug. Bilbo Baggins is in possession of a mysterious and magical ring"}})
 ![Alt text](/EJERCICIO%20MONGODB/images/image2.2.png)
 
+3. ***Agregar una actor llamado "Samuel L. Jackson" a la película "Pulp Fiction"***
+db.Movies.updateOne({title: "Pulp Fiction" },{$set: {actors:"Samuel L. Jackson"}})
+![Alt text](image.png)
+
 
 **Búsqueda por Texto / Text Search**
 
